@@ -1,15 +1,21 @@
 /* Im not gonna pretend like most of this code isn't copied from other places (Because it is) */
 
+/* Imports go here */
+
 /* Import the fonts */
 
 @font-face {
     font-family: DialogFont;
-    src: url("https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/gamefont1.ttf");
+    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/gamefont1.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: TextFont;
-    src: url("https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/MingLiU-ExtB-01.ttf");
+    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/MingLiU-ExtB-01.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 /* Important note: I don't actually know how any of this works. */
