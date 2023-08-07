@@ -18,11 +18,6 @@
     font-weight: normal;
 }
 
-@font-face {
-    font-family: TextFontAlt;
-    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/src/Fonts/gamefont1.ttf');
-}
-
 /* Important note: I don't actually know how any of this works. */
 /* Backwards compatibility (Apparently) */
 
