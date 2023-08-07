@@ -18,6 +18,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: AltFont;
+    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/src/Fonts/B612Mono-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
 /* Important note: I don't actually know how any of this works. */
 /* Backwards compatibility (Apparently) */
 
