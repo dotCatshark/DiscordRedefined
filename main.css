@@ -1,11 +1,28 @@
+/* Im not gonna pretend like most of this code isn't copied from other places (Because it is) */
+
 /* Import the fonts */
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: DialogFont;
+    src: url("https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/gamefont1.ttf");
 }
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: TextFont;
+    src: url("https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/MingLiU-ExtB-01.ttf");
+}
+
+/* Important note: I don't actually know how any of this works. */
+/* Backwards compatibility (Apparently) */
+
+:root {
+    --line-spacing: var(--message-line-spacing);
+}
+
+/* Apply some styles */
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: DialogFont, sans-serif !important;
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
 }
