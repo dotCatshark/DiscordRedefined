@@ -6,14 +6,14 @@
 
 @font-face {
     font-family: DialogFont;
-    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/gamefont1.ttf');
+    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/src/Fonts/gamefont1.ttf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: TextFont;
-    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/Fonts/MingLiU-ExtB-01.ttf');
+    src: url('https://github.com/dotCatshark/DiscordRedefined/blob/main/src/Fonts/MingLiU-ExtB-01.ttf');
     font-style: normal;
     font-weight: normal;
 }
